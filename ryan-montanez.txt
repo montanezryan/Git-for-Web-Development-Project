@@ -1,0 +1,42 @@
+Link to Codepen project: https://codepen.io/montanezryan/pen/YzqmRZJ
+
+1. What is Semantic HTML? Introducing meaning rather than just presenting info on screen
+    2. What is HTML used for? Formatting media or text on a page
+    3. What is an attribute and where do we put it? Act as an extension of an element, changing it's behavior
+    4. What is the h1 tag used for? How many times should I use it on a page? Primary heading or title of a page, should be used only once
+    5. Name two tags that have required attributes: a tags and img tags
+    6. What do we put in the head of our HTML document? Info primarily for machine processing and not human readability
+    7. What is an id? Unique global attribute defining an identifier within a document
+    8. What elements can I add an id to? 
+    9. How many times can I use the same id on a page? Once
+    10. What is a class? Assigns a class name or set of names to an element used for styling or general browser use
+    11. What elements can I add a class to? 
+    12. How many times can I use the same class on a page? Any number of times 
+    13. How do I get my link to open in a new tab? You can use <a href= to assign a url and also onclick to perform the action
+    14. What is the alt attribute in the image tag used for? A fallback of text to display in the instance an image is not loaded
+    15. How do I reference an id? A hashtag symbol #
+    16. What is the difference between a section and a div? Section is used to define a grouping of information related to each other while a div is a general grouping of information or elements
+    17. What is CSS used for? Adding style to web documents
+    18. How to we select an element? Example - every h2 on the page: h2{}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one. IDs would be used to identify one element and only used once, whereas a. Class could define multiple elements and be used several times
+    20. How do we select classes in CSS? A period symbol "."
+    21. How do we select a p element with a single class of “human””? #p human{}
+    22. What is a parent child selector? When would this be useful? The ability to isolate and edit specific elements under another element. For example all <p> elements found under the parent <div>
+    23. How do you select all links within a div with the class of sidebar?
+    24. What is a pseudo selector? A way to define parts of a document when there is not a specific element to select
+    25. What do we use the change the spacing between lines? Line-height:
+    26. What do we use to change the spacing between letters? Letter-spacing:
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? Text-transform:uppercase, lowercase, capitalize 
+    28. How do I add a 1px border around my div that is dotted and black? 
+    Div{
+      border:1px dotted black;
+}
+    29. How do I select everything on the page? An asterisk *
+    30. How do I write a comment in CSS? /* Add Comment */
+    31. How do I find out what file I am in, when I am using the command line? 
+    32. Using the command line - how do I see a list of files/folders in my current folder? ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? rm <file> and it does not prompt you if this is correct or not, it will just do it
+    34. Why should I use version control? So that you can recall previous versions after edits have been made in case there is a need to return
+    35. How often should I commit to github? As often as possible
+    36. What is the command we would use to push our repo up to github? Git push-u origin branch-name
+    37. Walk me through Lambda's git flow: Fork a repo, clone it by copying it's link and in terminal access the directory where you want it to be cloned using the git clone command, cd into the cloned repo and branch it with git checkout -b <name>, use git add and git commit -m "comments" to add and commit changes in the repo, use git push -u origin branch-name to push commits to GitHub
